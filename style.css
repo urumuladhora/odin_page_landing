@@ -54,7 +54,7 @@ button {
     color: #f9faf8;
     border-radius: 12px;
     padding: 10px 40px;
-    border-color: #3882f6;
+    border: none;
     
 }
 
@@ -101,4 +101,40 @@ button {
     margin-right: 100px;
     font-size: medium;
     font-weight: bold;
+}
+
+.banner-container {
+    padding: 52px;
+    width: 700px;
+    margin: auto;
+}
+.banner {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 24px 30px;
+}
+
+.banner-button {
+    border: 1px solid white;
+}
+.banner-title {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner-subtext {
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    margin-top: auto;
+
 }
